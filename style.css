@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.flex-header-container {
+
+    background-color: #265ee9;
+    display: flex;
+    justify-content: center;
+
+}
+
+.color-white {
+    color: white;
+}
+
+.color-black {
+    color: #292841;
+}
+
+.font-size {
+    font-size: 2.5rem;
+}
+
+.hello-section h1 {
+    padding: 20px;
+}
+
+.button-accedi {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+
+}
+
+.button-scarica-per-mac {
+    color: #292841;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.button-apri-discord-nel-tuo-browser {
+    color: white;
+    background-color: #292841;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.header-container {
+    display: flex;
+
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.hello-section-container {
+    background-image: url(img/jumbo.png);
+    height: 637px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-hello-section-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.hello-section {
+    height: 80%;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+.double-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    height: 80%;
+    width: 60%;
+    border: 2px dashed black;
+}
+
+.left-content {
+    background-color: lightblue;
+    width: 60%;
+    height: 100%;
+    border-right: 2px dashed black;
+}
+
+.right-content {
+    background-color: blueviolet;
+    width: 40%;
+    height: 100%;
+}
+
+.background-grey {
+    background-color: grey;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.green-container {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-content {
+    background-color: green;
+    display: flex;
+    height: 90%;
+    width: 60%;
+    border: 2px dashed black;
+}
+
+.footer-container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 32, 32);
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    height: 79%;
+    width: 60%;
+    border: 2px dashed black;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+
+hr {
+    border: 2px solid white;
+    margin: 30px 30px;
+    width: 100%;
+}
+
+.left-footer-content {
+    display: flex;
+    background-color: magenta;
+    width: calc((100% / 6) *2);
+    height: 100%;
+    border: 2px dashed black;
+}
+
+.right-footer-content {
+    background-color: aqua;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.col-calc {
+    width: calc((100% / 4) *1);
+    border: 2px dashed white;
+}
+
+.botton-footer-content {
+    display: flex;
+    background-color: hsl(202, 100%, 50%);
+    height: 10%;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: auto;
+    align-items: center;
+}
+
+.bottone-footer {
+    background-color: pink;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.logo-footer {
+    background-color: pink;
+    border: 2px dashed black;
+    padding: 5px;
+}
