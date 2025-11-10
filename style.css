@@ -168,18 +168,21 @@ padding-right: 67px;
 }
 
 .green-container {
-    height: 700px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .green-content {
-    background-color: green;
+    
     display: flex;
-    height: 90%;
-    width: 60%;
-    border: 2px dashed black;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+
+   
 }
 
 .footer-container {
