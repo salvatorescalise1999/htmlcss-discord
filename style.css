@@ -181,8 +181,17 @@ padding-right: 67px;
     flex-direction: column;
     width: 80%;
     text-align: center;
+    align-items: center;
 
    
+}
+
+.img-stars{
+    background-image: url(img/stars.svg);
+    padding: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35%;
 }
 
 .footer-container {
