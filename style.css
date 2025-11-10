@@ -148,10 +148,15 @@ padding-top: 50px;
 font-size: 30px;
 
 }
+.padding-reverse{
 
+
+    padding-right: 128px;
+
+}
 
 .background-grey {
-    background-color: grey;
+    background-color: lightgray;
 }
 
 .row-reverse {
